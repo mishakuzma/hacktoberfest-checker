@@ -192,6 +192,8 @@ app.get('/', function(req, res) {
 
         length = octoberOpenPrs.length;
         statements = ["It's not too late to start!", "Keep going.", "Half way there.", "So close!", "Way to go!", "Now you're just showing off."];
+        // get a gif of the statement that's relevant, and display it below the count
+        gifUrl = http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC 
         if (length > 5) length = 5;
 
         if (req.xhr) {
